@@ -6,31 +6,31 @@
       "AGENTS": "You have exceeded the agent limit. Your plan only allows {allowedAgents} agents.",
       "NON_ADMIN": "Please contact your administrator to upgrade the plan and continue using all features."
     },
-    "TITLE": "Account settings",
+    "TITLE": "Workspace settings",
     "SUBMIT": "Update settings",
     "BACK": "Back",
     "DISMISS": "Dismiss",
     "UPDATE": {
       "ERROR": "Could not update settings, try again!",
-      "SUCCESS": "Successfully updated account settings"
+      "SUCCESS": "Successfully updated workspace settings"
     },
     "ACCOUNT_DELETE_SECTION": {
-      "TITLE": "Delete your Account",
-      "NOTE": "Once you delete your account, all your data will be deleted.",
-      "BUTTON_TEXT": "Delete Your Account",
+      "TITLE": "Delete your Workspace",
+      "NOTE": "Once you delete your workspace, all your data will be deleted.",
+      "BUTTON_TEXT": "Delete Your Workspace",
       "CONFIRM": {
-        "TITLE": "Delete Account",
-        "MESSAGE": "Deleting your Account is irreversible. Enter your account name below to confirm you want to permanently delete it.",
+        "TITLE": "Delete Workspace",
+        "MESSAGE": "Deleting your Workspace is irreversible. Enter your workspace name below to confirm you want to permanently delete it.",
         "BUTTON_TEXT": "Delete",
         "DISMISS": "Cancel",
         "PLACE_HOLDER": "Please type {accountName} to confirm"
       },
-      "SUCCESS": "Account marked for deletion",
-      "FAILURE": "Could not delete account, try again!",
+      "SUCCESS": "Workspace marked for deletion",
+      "FAILURE": "Could not delete workspace, try again!",
       "SCHEDULED_DELETION": {
-        "TITLE": "Account Scheduled for Deletion",
-        "MESSAGE_MANUAL": "This account is scheduled for deletion on {deletionDate}. This was requested by an administrator. You can cancel the deletion before this date.",
-        "MESSAGE_INACTIVITY": "This account is scheduled for deletion on {deletionDate} due to account inactivity. You can cancel the deletion before this date.",
+        "TITLE": "Workspace Scheduled for Deletion",
+        "MESSAGE_MANUAL": "This workspace is scheduled for deletion on {deletionDate}. This was requested by an administrator. You can cancel the deletion before this date.",
+        "MESSAGE_INACTIVITY": "This workspace is scheduled for deletion on {deletionDate} due to inactivity. You can cancel the deletion before this date.",
         "CLEAR_BUTTON": "Cancel Scheduled Deletion"
       }
     },
@@ -41,7 +41,7 @@
         "NOTE": ""
       },
       "ACCOUNT_ID": {
-        "TITLE": "Account ID",
+        "TITLE": "Workspace ID",
         "NOTE": "This ID is required if you are building an API based integration"
       },
       "AUTO_RESOLVE": {
@@ -73,13 +73,13 @@
         "UPDATE_BUTTON": "Save Changes"
       },
       "NAME": {
-        "LABEL": "Account name",
-        "PLACEHOLDER": "Your account name",
-        "ERROR": "Please enter a valid account name"
+        "LABEL": "Workspace name",
+        "PLACEHOLDER": "Your workspace name",
+        "ERROR": "Please enter a valid workspace name"
       },
       "LANGUAGE": {
         "LABEL": "Site language",
-        "PLACEHOLDER": "Your account name",
+        "PLACEHOLDER": "Your workspace name",
         "ERROR": ""
       },
       "DOMAIN": {
@@ -119,15 +119,15 @@
         "MESSAGE_HELP": "This message is sent to the customer when a conversation is automatically resolved by the system due to inactivity."
       },
       "FEATURES": {
-        "INBOUND_EMAIL_ENABLED": "Conversation continuity with emails is enabled for your account.",
+        "INBOUND_EMAIL_ENABLED": "Conversation continuity with emails is enabled for your workspace.",
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "You can receive emails in your custom domain now."
       }
     },
-    "UPDATE_CHATWOOT": "An update {latestChatwootVersion} for Chatwoot is available. Please update your instance.",
+    "UPDATE_CHATWOOT": "An update {latestChatwootVersion} for Expand Matrix is available. Please update your instance.",
     "LEARN_MORE": "Learn more",
-    "PAYMENT_PENDING": "Your payment is pending. Please update your payment information to continue using Chatwoot",
-    "UPGRADE": "Upgrade to continue using Chatwoot",
-    "LIMITS_UPGRADE": "Your account has exceeded the usage limits, please upgrade your plan to continue using Chatwoot",
+    "PAYMENT_PENDING": "Your payment is pending. Please update your payment information to continue using Expand Matrix",
+    "UPGRADE": "Upgrade to continue using Expand Matrix",
+    "LIMITS_UPGRADE": "Your workspace has exceeded the usage limits, please upgrade your plan to continue using Expand Matrix",
     "OPEN_BILLING": "Open billing"
   },
   "FORMS": {
@@ -213,7 +213,7 @@
       "GO_TO_SETTINGS_LABELS": "Go to Label Settings",
       "GO_TO_SETTINGS_CANNED_RESPONSES": "Go to Canned Response Settings",
       "GO_TO_SETTINGS_APPLICATIONS": "Go to Application Settings",
-      "GO_TO_SETTINGS_ACCOUNT": "Go to Account Settings",
+      "GO_TO_SETTINGS_ACCOUNT": "Go to Workspace Settings",
       "GO_TO_SETTINGS_PROFILE": "Go to Profile Settings",
       "GO_TO_NOTIFICATIONS": "Go to Notifications",
       "ADD_LABELS_TO_CONVERSATION": "Add label to the conversation",
