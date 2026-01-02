@@ -315,6 +315,7 @@ class Message < ApplicationRecord
     send_reply
     execute_message_template_hooks
     update_contact_activity
+    enqueue_em_webhook
   end
 
   def update_contact_activity
@@ -407,6 +408,12 @@ class Message < ApplicationRecord
 
   def reindex_for_search
     reindex(mode: :async)
+  end
+
+  def enqueue_em_webhook
+    EM::MessageCreatedWebhookJob.perform_later(id)
+  rescue => e
+    Rails.logger.error("EM webhook enqueue failed: #{e}")
   end
 end
 
